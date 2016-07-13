@@ -1,0 +1,19 @@
+<!--HTML CODE-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>AllOrReversed</title>
+		<script src="js/AllOrReversed.js"></script>
+	</head>
+	<body>
+		<input type="checkbox" name="one" onclick="check_one()">篮球<br />
+		<input type="checkbox" name="one" onclick="check_one()">足球<br />
+		<input type="checkbox" name="one" onclick="check_one()">羽毛球<br />
+		<input type="checkbox" name="one" onclick="check_one()">高尔夫球<br />
+		<input type="checkbox" name="one" onclick="check_one()">网球<br />
+		<hr>
+		<input type="checkbox" name="all" id="all" onclick="check_all()">全选
+		<input type="button" value="反选" onclick="re_check()">
+	</body>
+</html>
